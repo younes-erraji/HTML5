@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Welcome To HTML5" />
+        <title>HTML5</title>
+        <link rel="stylesheet" href="CSS/normalize.css" />
+        <link rel="stylesheet" href="CSS/style.css" />
+        <!--[if lt IE 9]>
+            <script src="JS/html5shiv.min.js" ></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header class="header">
+            <h2>HTML5 Course</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Downloads</li>
+                <li>News</li>
+                <li>Info</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <main>
+            <p>This Is Main<br/>And Should Not Be anathor Main</p>
+        </main>
+        <div class="post">
+            <section>
+                <article>
+                    <h3>Article #01</h3>
+                    <p>This Article Created By <mark>Younes</mark> <time datetime="2000-08-16T20:18:33">Aug 16<sup>th</sup> 2000</time></p>
+                </article>
+                <section>
+                    <p>This Section Content N<sup>O</sup> 01</p>
+                    <h4>&lt;Details&gt;</h4>
+                    <details open>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Numbers</summary>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+                    </details>
+                </section>
+            </section>
+            <article>
+                <header>
+                    <h3>Article #02</h3>
+                    <p>This Article Created By <mark>Younes</mark></p>
+                </header>
+                <section>
+                    <p>This Section Content N<sup>O</sup> 02</p>
+                    <div class="long-link">
+                        <h4>&lt;wbr&gt;&lt;/wbr&gt;</h4>
+                        https://www.google.com/<wbr>images</wbr>/Younes.Erraji/<wbr>2000/08/16</wbr>/20
+                    </div>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>&lt;figure&gt;</h3>
+                    <p>This Article Created By Younes</p>
+                </header>
+                <section>
+                    <p>This Section describe div syntax</p>
+                    <figure>
+                        <figcaption>This is div</figcaption>
+                        <code>
+                            &lt;div&gt;This is normal div&lt;/div&gt;
+                        </code>
+                    </figure>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>&lt;figure&gt;</h3>
+                    <p>This Article Created By Younes</p>
+                </header>
+                <section>
+                    <p>This Section describe image inside figure</p>
+                    <figure class="f">
+                        <img src="Images/C.jpg" alt="C" title="C" />
+                        <img src="Images/C.jpg" alt="C" title="C" />
+                        <figcaption>This is Images</figcaption>
+                    </figure>
+                </section>
+                <dialog open>Younes Erraji</dialog>
+            </article>
+            <article>
+                <header>
+                    <h3>Video</h3>
+                    <p>&lt;video&gt;</p>
+                </header>
+                <section>
+                    <p>This Section describe Video</p>
+                    <video controls width="320" height="260" autoplay loop muted preload="auto" poster="Images/C.jpg" src="media/vv.mp4">
+                        <source src="media/vv.mp4" type="video/mp4">
+                        <source src="media/vv.ogg" type="video/ogg">
+                        <source src="media/vv.webm" type="video/webm">
+                        <track src="arab.vtt" kind="subtitles" srclang="ar" label="arab">
+                        Your Browser Does Not Support Video
+                    </video>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Input</h3>
+                    <p>&lt;input type="color"&gt;</p>
+                    <p>&lt;input type="range"&gt;</p>
+                </header>
+                <section>
+                    <p>This Section describe New Form Fields</p>
+                    <form method="post">
+                        <label>Color</label>
+                        <input type='color' name="theme" value="#CCCCCC">
+                        <label>Range</label>
+                        <input type='range' name="choose" min="1" max="100" step="10" value="30">
+                        <label>Number</label>
+                        <input type='number' name="namber" min="1" max="30" step="3">
+                        <label>E-mail</label>
+                        <input type='email' name="e-mail">
+                        <label>search</label>
+                        <input type='Search' name="Cherche">
+                        <label>URL</label>
+                        <input type='url' name="link">
+                        <label>Phone Number</label>
+                        <input type='tel' name="phone">
+                        <label>Time</label>
+                        <input type='time' name="hours">
+                        <label>Date</label>
+                        <input type='date' name="date">
+                        <label>Date Time</label>
+                        <input type='datetime' name="date-time">
+                        <label>Date Time Local</label>
+                        <input type='datetime-local' name="date-time-local">
+                        <label>Month</label>
+                        <input type='month' name="month">
+                        <label>Week</label>
+                        <input type='week' name="week">
+                        <label>Pattern</label>
+                        <input type='text' pattern="[a-z]{6}" required>
+                        <label>Read Only</label>
+                        <input type='text' name="readonly" value="Younes" readonly>
+                        <label>Disabled</label>
+                        <input type='text' name="disabled" value="ERRAJI" readonly>
+                        <input type="submit" value='send'>
+                    </form>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Input</h3>
+                    <p>New Attributes</p>
+                </header>
+                <section>
+                    <p>This Section describe New Form Attributes</p>
+                    <form id="main-form" action="pro.php" method="post" enctype="" novalidate>
+                        <label>Username</label>
+                        <input type='text' name="User" required autocomplete="on" autofocus="on">
+                        <input type='text' name="Pass" disabled>
+                        <label>E-mail</label>
+                        <input type='email' name="e-mail" autocomplete="off">
+                        <label>Multiple E-mail</label>
+                        <input type='email' name="e-mail" multiple placeholder="email" required value="O@O.com, Younes@Younes.Err">
+                        <input type="file" multiple>
+                        <label>File Could not choose more than a file if there's no multiple</label>
+                        <input type='submit' value="Default Submit">
+                        <input type='submit' value="Other Submit" formaction="other.php" formmethod="get">
+                        <input type='submit' value="No Validate Submit & In New Tab" formnovalidate formtarget="_blank">
+                    </form>
+                    <label>Nickname</label>
+                    <input type='text' name="nickname" form="main-form">
+                </section>
+            </article>
+        </div>
+        <aside>
+            <section class="links">
+                <h3>Category</h3>
+                <ul>
+                    <li>Intro</li>
+                    <li>Semantics</li>
+                    <li>Api</li>
+                    <li>Intro</li>
+                    <li>New Attributes</li>
+                    <li>Multimedia Elements</li>
+                </ul>
+            </section>
+            <section class="progress">
+                <h3>&lt;Progress&gt;</h3>
+                <ul>
+                    <li>Design : <progress value="55" max="100"></progress></li>
+                    <li>Coding : <progress value="3" max="10"></progress></li>
+                </ul>
+            </section>
+            <section class="Meters">
+                <h3>&lt;Meter&gt;</h3>
+                <ul>
+                    <li>CPU : <meter min="0" max="1" value=".6"></meter></li>
+                    <li>OPD : <meter min="0" max="1" value=".3" low=".5"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".4" low=".4"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".8" low=".4" high=".7"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".5" low=".4" high=".7" optimum=".5"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value="3" low=".4" high=".7" optimum=".5"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value="-1" low=".4" high=".7" optimum=".5"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".7" low=".4" high=".7" optimum=".5"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".2" low=".4" high=".7" optimum=".8"></meter></li>
+                    <li>CCP : <meter min="0" max="1" value=".8" low=".4" high=".7" optimum=".3"></meter></li>
+                </ul>
+            </section>
+            <section class="topmember">
+                <h3>&lt;bdi&gt;</h3>
+                <h4>Top Member</h4>
+                <ul>
+                    <li>Younes : 30% F</li>
+                    <li>Youssef : 40% F</li>
+                    <li>Ilham : 70% C</li>
+                    <li>Safae : 90% A</li>
+                    <!--<li>ايوب : 90% A</li>-->
+                    <li><bdi>يونس</bdi> : 50% A</li>
+                </ul>
+            </section>
+            <section class="datalist">
+                <h3>Datalist</h3>
+                <h4>Best Browser</h4>
+                <form method="post">
+                    <input list="browser">
+                    <datalist id="browser">
+                        <option value="Google Chrome">
+                        <option value="Mozilla Firefox">
+                        <option value="Safari">
+                        <option value="Microsoft Edge">
+                        <option value="Opera">
+                    </datalist>
+                    <input type="submit" value="Choose" />
+                </form>
+            </section>
+            <section class="output">
+                <h3>Output</h3>
+                <h4>Calculate Your age</h4>
+                <form method="post" oninput="result.value = (parseInt(age.value)*365)+' d'">
+                    <input type="text" name="age">
+                    <output name="result"></output>
+                </form>
+            </section>
+            <section class="audio">
+                <h3>Audio</h3>
+                <h4>&lt;audio&gt;</h4>
+                <audio controls autoplay loop muted preload="auto" src="media/000.mp3">
+                    <source src="media/000.mp3" type="audio/mpeg" media="">
+                    <source src="media/000.ogg" type="audio/ogg" media="">
+                    Your Browser Does Not Support Audio
+                </audio>
+            </section>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+            Copyright &copy; <br/>
+            All Rights Reserved To Younes
+        </footer>
+        <script src="JS/script.js"></script>
+    </body>
+</html>

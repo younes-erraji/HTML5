@@ -1,0 +1,39 @@
+/* Start Global */
+body { font-family: Tahoma, Arial;}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.clearfix { clear: both; }
+ul { list-style: none; }
+mark { padding: 5px; border-radius: 5px; }
+.long-link {width: 200px; }
+dialog { position: fixed; left: 1565px; bottom: 0px; padding: 10px; }
+video { margin: 10px; }
+form > * { display: block; }
+form > input { display: block; margin-bottom: 10px; }
+/* End Global */
+/* Start Header */
+.header { background-color: #111; color: #fff; text-align: center; padding: 18px; margin-bottom: 0; }
+nav { background-color: #999; text-align: center; margin-top: 0; }
+nav ul li {  display: inline-block; padding: 12px; font-weight: bold; }
+nav ul li:after { font-weight: bold; }
+nav ul li:last-child:after { content: ""; }
+/* End Header */
+main { background-color: #ddd; padding: 8px; text-align: center; }
+.post { width: 70%; float: left; }
+.post article { background-color: azure; border: 1px solid #ddd; margin:10px; padding: 10px; }
+.post section { background-color: azure; border: 1px solid #ddd; margin:10px; padding: 10px; }
+.post section details { margin: 10px 0; }
+.post section ul li { padding: 10px 0 0 20px; }
+.post article section code { padding: 10px; margin: 10px; background-color: #fff; border: 1px solid #ccc; display: block; max-width: 500px; }
+.post article section .f { margin: 10px; border: 1px solid #ccc; padding: 10px; width: 690px; background-color: aquamarine; text-align: center; }
+.post header { background-color: #fff; color: #111; padding: 18px; border: 1px solid #ddd; }
+.post article section img { margin: 10px; }
+aside { float:left; width: 30%; }
+aside section ul { list-style: none; margin: 5px 10px; }
+aside section ul li { line-height: 1.7; }
+aside section { border: 1px solid #ccc; background-color: #eee; padding: 10px; margin: 10px; }
+aside section h3 { border: 1px solid #ccc; background-color: #d7d2d2; padding: 5px; }
+aside section form { padding: 10px; }
+aside section h4 { margin: 10px; }
+/* Start Footer */
+footer { background-color: #333; color: #fff; text-align: center; padding: 16px; }
+/* End Footer */
